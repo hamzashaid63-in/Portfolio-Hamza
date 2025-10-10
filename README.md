@@ -6,7 +6,7 @@ It features **dark/light mode**, **scroll animations**, and a **right-side mobil
 ---
 
 ## 🚀 Live Demo
-🔗 [View Portfolio Live](https://github.com-hamzashaid63-in .github.io/your-portfolio/)  
+🔗 [View Portfolio Live]( https://hamzashaid63-in.github.io/Portfolio-Hamza/)  
 *(Replace the link above with your actual GitHub Pages link)*
 
 ---
@@ -53,7 +53,7 @@ It features **dark/light mode**, **scroll animations**, and a **right-side mobil
 
 ## 🖼 Preview
 
-![Portfolio Preview](https://via.placeholder.com/1000x500?text=Portfolio+Preview)
+![Portfolio Preview]( https://hamzashaid63-in.github.io/Portfolio-Hamza/)
 
 ---
 
