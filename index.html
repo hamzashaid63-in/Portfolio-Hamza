@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hamza Shahid — Portfolio</title>
+    <meta name="description"
+        content="Hamza Shahid — Front-End Web Developer & UX Designer. HTML, CSS, JavaScript, Bootstrap, Tailwind." />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="logo" aria-hidden>HS</div>
+                <div>
+                    <div style="font-weight:800">Hamza Shahid</div>
+                    <div style="color:var(--muted);font-size:.9rem">Front-End Developer • UI/UX Designer</div>
+                </div>
+            </div>
+
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Open menu" onclick="toggleMobileNav()">☰</button>
+
+            <div id="mobileNav" class="mobile-nav card" role="menu" aria-hidden="true" style="    display: none;
+    position: absolute;
+    right: 58px;
+    top: 61px;
+    height: 18rem;
+    z-index: 1;">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <!-- 🌞 / 🌙 Toggle Button -->
+            <button id="modeToggle" class="mode-toggle" aria-label="Toggle dark mode">🌙</button>
+        </header>
+
+
+
+
+        <!-- HERO -->
+        <main id="home" class="hero" role="main">
+            <div class="intro reveal">
+                <div class="chip">Front-End & UX</div>
+                <h1>Hi, I'm <span style="color:var(--accent-2)">Hamza Shahid</span></h1>
+                <p class="sub">Front-End Web Developer & UX Designer</p>
+
+                <p class="lead">
+                    I create beautiful and highly functional websites that truly stand out.
+                    My approach blends creativity with clean code and thoughtful design — ensuring every project feels
+                    modern, responsive, and memorable.
+                    Take a look at my recent projects and see how I bring innovation and attention to detail into every
+                    design.
+                </p>
+
+                <div class="btn-row" style="margin-bottom:18px">
+                    <a class="btn" href="#projects">View Projects</a>
+                    <a class="btn ghost" href="#contact">Contact Me</a>
+                </div>
+
+                <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+                    <div class="chip">💻 Front-End Developer</div>
+                    <div class="chip">🎨 UI/UX Designer</div>
+                    <div class="chip">📍 Pakistan</div>
+                </div>
+            </div>
+
+            <aside class="profile card fade-right">
+                <div class="avatar"><img src="./images/551281383_1834423564125858_970858234647617686_n.jpg" alt="" style="    border-radius: 703px;
+    width: 102px;
+    height: 112px;"></div>
+                <div style="font-weight:800">Hamza Shahid</div>
+                <div class="muted">Front-End Developer & UX Designer</div>
+                <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;justify-content:center">
+                    <a class="btn" href="mailto:hamzashahid-63@gmail.com">Email Me</a>
+                    <a class="btn ghost" href="https://www.linkedin.com/feed/" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                </div>
+
+                <div style="margin-top:14px;width:100%">
+                    <div style="font-weight:700;margin-bottom:8px">Skills</div>
+                    <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Bootstrap</div>
+                        <div class="skill">Tailwind CSS</div>
+                        <div class="skill">Figma</div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- ABOUT -->
+        <section id="about" class="reveal" aria-labelledby="about-title">
+            <h2 class="section-title" id="about-title">About Me</h2>
+            <p class="lead">I'm Hamza Shahid, a passionate Front-End Developer and UX Designer. I enjoy transforming
+                creative ideas into visually appealing and functional web experiences. I focus on building websites that
+                are not only beautiful but also optimized for performance and usability.</p>
+
+            <div class="grid-2" style="margin-top:14px">
+                <div class="card fade-left">
+                    <h3 style="margin-bottom:8px">What I do</h3>
+                    <p class="muted">I build responsive websites, craft intuitive user interfaces, and improve user
+                        flows. I pay attention to pixel-perfect UI, accessibility, and performance.</p>
+                    <ul style="margin-top:10px;color:var(--muted);list-style:disc;margin-left:20px">
+                        <li>Responsive Web Development</li>
+                        <li>UI/UX Design & Prototyping (Figma)</li>
+                        <li>Interaction & Micro-interactions</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-right">
+                    <h3 style="margin-bottom:8px">Tools & Workflow</h3>
+                    <p class="muted">I design in Figma, code in VS Code, and use Git for version control. I follow
+                        component-based patterns and reusable CSS practices to keep projects maintainable.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="reveal" aria-labelledby="projects-title">
+            <h2 class="section-title" id="projects-title">Projects</h2>
+            <p class="lead">Here are some of my recent projects — click any project to see more details.</p>
+
+            <div class="projects-grid" style="margin-top:12px">
+                <!-- Project 1 -->
+                <article class="project" tabindex="0">
+                    <h3>Food Recipe Website</h3>
+                    <p>A colorful and responsive recipe website built using HTML, CSS, and JavaScript. Includes smooth
+                        animations, search bar, and mobile-friendly design.</p>
+                    <div class="meta">
+                        <span>HTML</span> • <span>CSS</span> • <span>JavaScript</span>
+                    </div>
+                    <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+                        <button class="btn" onclick="openModal(1)">View</button>
+                        <a class="btn ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
+                        <a class="btn ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project" tabindex="0">
+                    <h3>Travel Landing Page</h3>
+                    <p>A visually stunning landing page with image sliders and clean layout, created using Bootstrap and
+                        Tailwind-inspired utilities.</p>
+                    <div class="meta">
+                        <span>Bootstrap</span> • <span>Tailwind CSS</span> • <span>UI</span>
+                    </div>
+                    <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+                        <button class="btn" onclick="openModal(2)">View</button>
+                        <a class="btn ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
+                        <a class="btn ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project" tabindex="0">
+                    <h3>To-Do List App</h3>
+                    <p>A simple and functional task manager app built in JavaScript. Users can add, edit, and delete
+                        their daily tasks easily.</p>
+                    <div class="meta">
+                        <span>JavaScript</span> • <span>LocalStorage</span>
+                    </div>
+                    <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+                        <button class="btn" onclick="openModal(3)">View</button>
+                        <a class="btn ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
+                        <a class="btn ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="reveal" aria-labelledby="skills-title">
+            <h2 class="section-title" id="skills-title">Skills</h2>
+            <p class="lead">Technical and design skills I work with regularly.</p>
+
+            <div style="margin-top:12px" class="card fade-up">
+                <div style="display:flex;flex-direction:column;gap:12px">
+                    <div><strong>Languages:</strong> HTML, CSS, JavaScript</div>
+                    <div><strong>Frameworks & Libraries:</strong> Bootstrap, Tailwind CSS</div>
+                    <div><strong>Design Tools:</strong> Figma</div>
+                    <div><strong>Other:</strong> Responsive Design, Clean Code, UX Optimization, Git</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="reveal" aria-labelledby="contact-title">
+            <h2 class="section-title" id="contact-title">Contact</h2>
+            <p class="lead">Let’s work together! If you have a project idea or want to collaborate, feel free to reach
+                out.</p>
+
+            <div class="grid-2" style="margin-top:12px">
+                <div class="card fade-left">
+                    <h3 style="margin-bottom:8px">Get in touch</h3>
+                    <p class="muted">Email: <strong>hamzashahid-63@gamil.com</strong></p>
+                    <p class="muted">LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener"
+                            style="color: black;
+    font-weight: 700;
+    opacity: 0.5;">linkedin.com/in/your-profile</a></p>
+                    <p class="muted">Location: <span style="color: black;
+    font-weight: 700;
+    opacity: 0.5;">Pakistan</span></p>
+
+                    <div style="margin-top:12px">
+                        <div class="muted-note">You can also click the Email button at the top to send me a message
+                            directly.</div>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="card fade-right" onsubmit="handleContact(event)">
+                    <label style="display:block;margin-bottom:6px;font-weight:700">Your name</label>
+                    <input required id="name" placeholder="Your name" />
+
+                    <label style="display:block;margin:12px 0 6px;font-weight:700">Your email</label>
+                    <input required id="email" type="email" placeholder="you@example.com" />
+
+                    <label style="display:block;margin:12px 0 6px;font-weight:700">Message</label>
+                    <textarea required id="message" placeholder="Write a short message..."></textarea>
+
+                    <div style="margin-top:10px;display:flex;gap:8px;align-items:center">
+                        <button type="submit" class="btn">Send Message</button>
+                        <div id="formStatus" class="muted" style="font-size:.95rem"></div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            © <span id="year"></span> Hamza Shahid — Front-End Developer & UI/UX Designer • Designed & built by me.
+        </footer>
+    </div>
+
+    <!-- Project modal (reused) -->
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-card">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+                <div style="font-weight:800" id="modalTitle">Project</div>
+                <button class="close-btn" onclick="closeModal()">✕</button>
+            </div>
+            <div id="modalBody" style="margin-top:12px;color:var(--muted)"></div>
+            <div style="margin-top:14px;display:flex;gap:8px">
+                <a id="modalDemo" class="btn ghost" href="#" target="_blank" rel="noopener">Open Live Demo</a>
+                <a id="modalGit" class="btn ghost" href="#" target="_blank" rel="noopener">Open GitHub</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
