@@ -101,7 +101,7 @@ function handleContact(e) {
     window.location.href = mailto;
 
     setTimeout(() => {
-        status.textContent = 'If your email client did not open, copy your message and email: hamzashahid@example.com';
+        status.textContent = 'If your email client did not open, copy your message and email: hamzashahid-63@gmail.com';
     }, 1500);
 }
 
