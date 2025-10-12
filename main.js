@@ -48,8 +48,8 @@ const projects = {
     2: {
         title: 'Travel Landing Page',
         body: `<p>Image-rich landing page with hero slider, card layout for destinations, and clear CTAs. Built using Bootstrap utilities and Tailwind-like utility classes.</p>`,
-        demo: '#',
-        git: '#'
+        demo: ' https://hamzashaid63-in.github.io/Travel-with-Style/',
+        git: 'https://github.com/hamzashaid63-in/Travel-with-Style.git'
     },
     3: {
         title: 'To-Do List App',
