@@ -36,14 +36,15 @@ revealEls.forEach(el => io.observe(el));
 const projects = {
     1: {
         title: 'Food Recipe Website',
-        body: `<p>A colorful and responsive recipe website built using HTML, CSS, and JavaScript. Features: search, mobile-first layout, recipe cards, and subtle animations.</p>
+        body: `<p>A vibrant and responsive food recipe website built with HTML, CSS, and JavaScript.
+Features smooth animations, an intuitive layout, and a fully mobile-friendly design that delivers a delightful user experience.</p>
                <ul style="margin-top:8px;color:var(--muted);margin-left:18px">
                  <li>Responsive design</li>
                  <li>Search & filter recipes</li>
                  <li>Mobile-friendly</li>
                </ul>`,
-        demo: '#',
-        git: '#'
+        demo: 'https://hamzashaid63-in.github.io/Eatify/',
+        git: 'https://github.com/hamzashaid63-in/Eatify.git'
     },
     2: {
         title: 'Travel Landing Page',
