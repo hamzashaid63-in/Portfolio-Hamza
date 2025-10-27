@@ -53,10 +53,10 @@ Features smooth animations, an intuitive layout, and a fully mobile-friendly des
         git: 'https://github.com/hamzashaid63-in/Travel-With-Style.git'
     },
     3: {
-        title: 'To-Do List App',
-        body: `<p>Task manager app built in JavaScript using LocalStorage. Add/edit/delete tasks and mark tasks as complete.</p>`,
-        demo: '#',
-        git: '#'
+        title: 'ShopEase',
+        body: `<p>Welcome to ShopEase — your modern and simple online shopping app! Built with pure HTML, CSS, and JavaScript, ShopEase makes browsing, adding to cart, and checking out super easy. Fast, clean, and mobile-friendly — it’s everything you need for a smooth shopping experience.</p>`,
+        demo: 'https://hamzashaid63-in.github.io/Frontend-Mentor/',
+        git: 'https://github.com/hamzashaid63-in/Frontend-Mentor.git'
     }
 };
 
