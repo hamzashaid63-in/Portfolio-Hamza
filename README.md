@@ -7,7 +7,6 @@ It features **dark/light mode**, **scroll animations**, and a **right-side mobil
 
 ## 🚀 Live Demo
 🔗 [View Portfolio Live]( https://hamzashaid63-in.github.io/Portfolio-Hamza/)  
-*(Replace the link above with your actual GitHub Pages link)*
 
 ---
 
